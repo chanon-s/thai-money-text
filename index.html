@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Thai Money Text</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    <script src="./script/thai-money-text.min.js"></script>
+</head>
+<body style="padding:20px">
+<input placeholder="type number">
+<button onclick="convert.call(this);">Convert</button>
+<br>
+<p></p>
+<script>
+    var eAmount = document.querySelector("input");
+    var output = document.querySelector("p");
+
+    function convert() {
+        var amount = eAmount.value;
+        var moneyToText = new ThaiMoneyText("บาท", "สตางค์");
+        output.innerText = moneyToText.translate(amount);
+    }
+
+</script>
+</body>
+</html>
