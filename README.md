@@ -2,7 +2,10 @@
 Convert numeric to Thai language text.
 
 ## Quick start
-- Link script file ```<script type="text/javascript" src="./script/thai-money-text.min.js"></script>```
+- Link script file 
+```html
+<script type="text/javascript" src="./script/thai-money-text.min.js"></script>
+```
 - In script tag or youre JavaScript file put the code
 ``` javascript
 // Initial object
