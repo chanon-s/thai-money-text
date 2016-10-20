@@ -16,5 +16,5 @@ var moneyText = new ThaiMoneyText("บาท","สตางค์");
 // Translate to variable
 var text = moneyText.translate(amount);
 
-// output "หนึ่งพันเก้าร้อยบาทห้าสิบสตางค์"
+// Output "หนึ่งพันเก้าร้อยบาทห้าสิบสตางค์"
 ```
