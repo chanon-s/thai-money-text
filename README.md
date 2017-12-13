@@ -9,7 +9,7 @@ Convert numeric to Thai language text.
 - In script tag or youre JavaScript file put the code
 ``` javascript
 // Initial object
-var amount = "1900.50"; // Can use integer type.
+var amount = "1900.50"; // Must be a number only.
 
 var moneyText = new ThaiMoneyText("บาท","สตางค์");
 
